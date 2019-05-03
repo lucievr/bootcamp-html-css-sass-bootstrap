@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.back-img {
+    background-image: url("./graphics/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.signup {
+    background-color: #2D4823;
+}
+
+.sub-section {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.circle {
+    background-color: #4F6A13;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    margin: 20px;
+}
