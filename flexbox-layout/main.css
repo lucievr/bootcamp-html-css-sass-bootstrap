@@ -6,22 +6,25 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   text-overflow: clip;
 }
 
 header {
   background-color: #313638;
-  padding: 30px;
+  padding: 2em;
 }
 
 main {
   display: flex;
+  flex-direction: row;
   flex-grow: 1;
 }
 
 h1 {
   margin: 0;
-  padding-top: 20px;
+  padding-top: 0.8em;
   font-size: 2rem;
   font-weight: 900;
 }
@@ -39,11 +42,11 @@ hr {
 
 .sidebar {
   background-color: #f06543;
-  padding: 20px 100px 20px 30px;
+  padding: 2em;
 }
 
 .article {
-  padding: 20px;
+  padding: 2em;
   width: 50%;
   margin: 0 auto;
   text-align: justify;
@@ -51,5 +54,5 @@ hr {
 
 footer {
   background-color: #b3b3b3;
-  padding: 30px;
+  padding: 2em;
 }
