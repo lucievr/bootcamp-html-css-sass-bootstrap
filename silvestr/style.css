@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+section {
+  padding: 1px;
+}
+
+nav {
+  background-color: #323377;
+}
+
+ul {
+  margin: 0;
+  padding: 15px;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+}
+
+#home {
+  background-image: url("./images/cool-background.svg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Freckle Face", cursive;
+  font-size: 4rem;
+  line-height: 1;
+  color: white;
+  text-shadow: 4px 4px black;
+}
+
+.image {
+  margin-left: 40px;
+  text-align: left;
+  position: absolute;
+  top: 110px;
+  left: 100px;
+}
+
+img {
+  width: 80%;
+}
+
+.top {
+  width: 30%;
+  margin-left: 800px;
+  padding: 60px;
+}
