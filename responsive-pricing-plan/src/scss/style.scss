@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Exo", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 1rem auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  color: #f4a423;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+nav {
+  padding-left: 2rem;
+  background-color: #435058;
+  border-radius: 4px;
+}
+
+nav a {
+  display: inline;
+  margin-right: 2rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 3rem;
+}
+
+nav a:hover {
+  color: #f4a423;
+  border-bottom: 2px solid #f4a423;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  @media (max-width: 1200px) {
+    flex-flow: row wrap;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+.card {
+  width: calc(25% - 10px);
+  padding: 1rem 1.5rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #aaa;
+
+  @media (max-width: 1200px) {
+    width: 48%;
+    margin: 1%;
+  }
+
+  @media (max-width: 768px) {
+    width: 98%;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.price {
+  margin-bottom: 1rem;
+  color: #f4a423;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #d33f49;
+  color: white;
+  border: none;
+  border-radius: 4px;
+
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2rem;
+
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .plans {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card {
+    margin: 20px;
+    width: 260px;
+  }
+
+  .nav {
+    flex-direction: row;
+  }
+}
