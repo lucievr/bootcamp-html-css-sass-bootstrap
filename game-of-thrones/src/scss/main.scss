@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("/img/got-bg.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 2em;
+  font-family: "ZCOOL KuaiLe", cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top {
+  align-self: flex-end;
+  font-size: 1.5em;
+}
+
+.bottom {
+  font-size: 2em;
+}
